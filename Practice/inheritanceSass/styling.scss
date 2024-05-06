@@ -1,0 +1,30 @@
+%message {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#primary {
+    @extend %message;
+    color: blue;
+    background-color: skyblue;
+}
+
+#secondary {
+    @extend %message;
+    color: grey;
+    background-color: lavenderblush;
+}
+
+#success {
+    @extend %message;
+    color: green;
+    background-color: springgreen;
+}
+
+#danger {
+    @extend %message;
+    color: red;
+    background-color: lightcoral;
+}

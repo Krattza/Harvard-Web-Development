@@ -1,0 +1,26 @@
+#danger, #success, #secondary, #primary {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+#primary {
+  color: blue;
+  background-color: skyblue;
+}
+
+#secondary {
+  color: grey;
+  background-color: lavenderblush;
+}
+
+#success {
+  color: green;
+  background-color: springgreen;
+}
+
+#danger {
+  color: red;
+  background-color: lightcoral;
+}/*# sourceMappingURL=styling.css.map */
