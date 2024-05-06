@@ -1,0 +1,21 @@
+{% extends 'calculator/layout.html' %}
+
+{% block body %}
+
+<h1>Basic Calculator</h1>
+
+<form action="{% url 'calculator:result'%}" method='post'>
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit"> 
+    <br>
+    <input type="button" value="Add" action='post' method="add()">
+    <input type="button" value="Substract" action='post' >
+    <input type="button" value="Multiply" action='post' >
+    <input type="button" value="Division" action='post' >
+    
+
+</form>
+
+
+{% endblock %}

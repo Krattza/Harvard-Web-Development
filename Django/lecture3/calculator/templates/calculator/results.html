@@ -1,0 +1,7 @@
+{% extends 'tasks/layout.html' %}
+
+{% block body %}
+    <p>The result is</p>
+    <h1>{{ result }}</h1>
+    <a href="{% url 'calculator:calcualtions' %}">Go Back</a>
+{% endblock %}
